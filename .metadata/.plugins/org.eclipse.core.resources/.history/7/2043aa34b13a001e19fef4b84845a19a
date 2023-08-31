@@ -1,0 +1,14 @@
+package fundamentals.operators;
+
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
+public class Logical {
+
+	public static void main(String[] args) {
+		
+		boolean condition1 = true;
+		boolean condition2 = 3 > 7;
+		
+		System.out.println(condition1 %% condition2);
+	}
+}
